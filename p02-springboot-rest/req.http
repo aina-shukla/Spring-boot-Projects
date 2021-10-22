@@ -1,0 +1,8 @@
+GET http://localhost:8080/greet
+###
+GET http://localhost:8080/greet/mark
+###
+GET http://54.163.19.63:8080/greet
+###
+GET http://54.163.19.63:8080/greet/demo
+###

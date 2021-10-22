@@ -1,0 +1,21 @@
+GET http://localhost:8080/greet
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImF1dGhvciI6Ik1hcmsgQ2FybCIsInByaWNlIjoyOS40LCJ0aXRsZSI6IkphdmEgaW4gMTUgZGF5cyIsImV4cCI6MTYzMzM2NDgwNCwiaWF0IjoxNjMzMzQ2ODA0fQ.binYNzsrrxJSwqxp33TIpyv5qYi8tDZTKUPILR1-ZAcOuCg5eCnaJfrQvqRCFk7FHNsTFK3iKvieDHRwwJJPxA
+
+###
+GET http://localhost:8080/today
+###
+POST http://localhost:8080/authenticate
+content-type: application/json
+
+{
+    "username": "demo@gmail.com",
+    "password": "demo@1234"
+}
+###
+POST http://localhost:8080/authenticate
+content-type: application/json
+
+{
+    "username": "demo@gmail.com",
+    "password": "demo@123"
+}
